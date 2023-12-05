@@ -1,0 +1,148 @@
+html, body {
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+  
+}
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
+a:visited {
+  color: inherit; 
+}
+.headerContainer{
+  position: sticky;
+  top: 0; 
+  color: white;
+
+  z-index: 100; 
+  width: 100%;
+  background-color: #151515;
+  display: flex;
+  justify-content: space-between;
+}
+.logoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siteLogo{
+  width: 4rem;
+  margin: 1rem;
+}
+.headerTitle{
+  font-size: 2rem;
+  text-decoration: none; 
+  color: inherit;
+}
+
+/* Footer */
+.footerContainer{
+  background-color: #EAEAEA;
+  display: flex;
+  justify-content: space-evenly;
+  color: #505050;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.followUsTitle{
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+.firstColumn{
+  display: flex;
+  flex-direction: column;
+  color: #505050;
+  font-size: larger;
+  text-align: left;
+}
+.miniSocialLogo{
+  width: 2rem;
+  cursor: pointer;
+  margin: 8px;
+}
+.companyLogoFooter{
+  width: 6rem;
+}
+
+/*Dashboard*/
+/* Homepage.css */
+
+/* Overall container styles */
+.dashboardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  /* Add other necessary styles for your container */
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 25%;
+  padding: 20px;
+}
+
+/* Sidebar table styles */
+.sidebarTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Sidebar table row styles */
+.sidebarRow {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Sidebar table header styles */
+.header {
+  font-weight: bold;
+  background-color: #f3f3f3;
+}
+
+/* Sidebar table cell styles */
+.sidebarCell {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Sidebar table cell for statistic names */
+.sidebarCell:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Main content styles */
+.mainContent {
+  width: 70%;
+  /* Style your main content area */
+}
+
+/* Chart row styles */
+.chartRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* Add other necessary styles for your chart rows */
+}
+.canvas-container .chartjs-render-monitor .chartjs-size-monitor .chartjs-chart .chartjs-dataset-0 .chartjs-dataset-label {
+  font-size: 35px; /* Adjust this value to change the font size */
+}
+/* Individual chart styles */
+.chart {
+  width: 48%; /* Adjust this width to fit your design */
+  /* Style your charts */
+}
+
+/* Wide chart styles */
+.wideChart {
+  width: 100%; /* Take up full width */
+  /* Style your wide charts */
+}
+
+.small{
+  width: 400px!important;
+  height: 400px!important;
+}
