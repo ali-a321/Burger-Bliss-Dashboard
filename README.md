@@ -12,5 +12,5 @@
   
 - **Geographical Analysis**: Shows orders categorized by city providing location-specific insights.
 
-This dashboard was built using React for the frontend, Node.js and Express for the backend, and MySQL for the database management. It's hosted on AWS EC2 for the application and AWS RDS for the database. The analysis and filtering of data primarily relied on MySQL queries executed on the database tables.
+The analysis and filtering of data primarily relied on MySQL queries executed on the database tables. This dashboard was built using React & CSS for the frontend, Node.js & Express for the backend, and MySQL for the database management. The MySQL database is hosted on AWS RDS and the Node.js Express server on AWS EC2.
 
